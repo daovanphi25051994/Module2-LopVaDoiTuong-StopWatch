@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         long[] numbers = new long[100000];
         for (int i = 0; i < numbers.length; i++) {
-            numbers[i] = Math.round(Math.random() * 1000);
+            numbers[i] = Math.round(Math.random() * 10000);
         }
         StopWatch rolex = new StopWatch();
         rolex.start();
