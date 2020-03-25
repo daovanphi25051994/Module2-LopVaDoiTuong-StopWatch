@@ -24,7 +24,7 @@ public class StopWatch {
     }
 
     public StopWatch() {
-        this.startTime = System.currentTimeMillis();
+
     }
 
     public void start() {
